@@ -11921,13 +11921,14 @@ body {
   padding: 16px 54px;
 }
 
-@media (max-width: 818px) {
+@media (max-width: 1040px) {
   #menu-global .box-menu-global {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding: 10px;
   }
 }
 
@@ -11935,10 +11936,9 @@ body {
   width: 30%;
 }
 
-@media (max-width: 818px) {
+@media (max-width: 1040px) {
   #menu-global .box-menu-global .box-logo {
     width: 100%;
-    margin-bottom: 16px;
   }
 }
 
@@ -11952,6 +11952,13 @@ body {
           justify-content: center;
 }
 
+@media (max-width: 1040px) {
+  #menu-global .box-menu-global .box-logo figure {
+    width: 100%;
+    margin: 10px;
+  }
+}
+
 #menu-global .box-menu-global .menu-navegacao {
   width: 70%;
   display: -webkit-box;
@@ -11959,7 +11966,7 @@ body {
   display: flex;
 }
 
-@media (max-width: 734px) {
+@media (max-width: 1040px) {
   #menu-global .box-menu-global .menu-navegacao {
     width: 100%;
     -webkit-box-pack: center;
@@ -11980,13 +11987,33 @@ body {
   }
 }
 
-#menu-global .box-menu-global .menu-navegacao ul li {
-  margin-right: 90px;
+@media (max-width: 810px) {
+  #menu-global .box-menu-global .menu-navegacao ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
 }
 
-@media (max-width: 818px) {
+#menu-global .box-menu-global .menu-navegacao ul li {
+  margin-right: 70px;
+}
+
+@media (max-width: 999px) {
   #menu-global .box-menu-global .menu-navegacao ul li {
-    margin-right: 16px;
+    margin-right: 22px;
+  }
+}
+
+@media (max-width: 615px) {
+  #menu-global .box-menu-global .menu-navegacao ul li {
+    width: 100%;
+    font-size: 3px;
+    margin-right: 0px;
   }
 }
 
@@ -12065,7 +12092,7 @@ body {
   font-family: 'Alfa Slab One', cursive;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1032px) {
   #data-hora .box-data-hora {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -12078,7 +12105,7 @@ body {
   margin-bottom: 20px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1032px) {
   #data-hora .box-data-hora .data-hora h1 {
     width: 100%;
     font-size: 40px;
@@ -12091,7 +12118,7 @@ body {
   font-size: 40px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1032px) {
   #data-hora .box-data-hora .data-hora p {
     width: 100%;
     font-size: 40px;
@@ -12104,7 +12131,7 @@ body {
   font-size: 40px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1032px) {
   #data-hora .box-data-hora .data-hora p span {
     width: 100%;
     font-size: 50px;
